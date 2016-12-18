@@ -1,0 +1,31 @@
+.footer-fix{
+	padding: 5px 0 !important;
+	background-color: #6fb90b;
+	color: white;
+}
+.fix-header{
+	background-color: #6fb90b !important;
+	color: white;
+}
+.btn-menu{
+	border: 0;
+	border-color: transparent;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.right-menu{
+	font-weight: 700;
+    margin: 12% 0;
+}
+
+
+.logo{
+	width: 16%;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}

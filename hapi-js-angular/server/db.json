@@ -1,0 +1,111 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "name": "Nguyễn Tất Chủ",
+      "email": "tatchu.it@gmail.com",
+      "phone": "+84969369499",
+      "division": "1"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Tất Chủ",
+      "email": "tatchu.it@gmail.com",
+      "phone": "+84969369499",
+      "division": "4"
+    },
+    {
+      "id": "3",
+      "name": "Nguyễn Tất Chủ",
+      "email": "tatchu.it@gmail.com",
+      "phone": "+84969369499",
+      "division": "2"
+    },
+    {
+      "id": "4",
+      "name": "Chu Nguyen Tat",
+      "email": "tatchu.it@gmail.com",
+      "phone": "0969369499",
+      "division": "3"
+    },
+    {
+      "id": "5",
+      "name": "Hoawbfg Văn Tebf",
+      "email": "29384@2345",
+      "phone": "0923845t",
+      "division": "2"
+    }
+  ],
+  "division": [
+    {
+      "id": "1",
+      "name": "Development",
+      "note": "Development division",
+      "people": [
+        {
+          "id": "1",
+          "name": "Nguyễn Tất Chủ",
+          "email": "tatchu.it@gmail.com",
+          "phone": "+84969369499",
+          "division": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Design",
+      "note": "Design division",
+      "people": [
+        {
+          "id": "3",
+          "name": "Nguyễn Tất Chủ",
+          "email": "tatchu.it@gmail.com",
+          "phone": "+84969369499",
+          "division": "2"
+        },
+        {
+          "id": "5",
+          "name": "Hoawbfg Văn Tebf",
+          "email": "29384@2345",
+          "phone": "0923845t",
+          "division": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "President",
+      "note": "Management division",
+      "people": [
+        {
+          "id": "4",
+          "name": "Chu Nguyen Tat",
+          "email": "tatchu.it@gmail.com",
+          "phone": "0969369499",
+          "division": "3"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "BA",
+      "note": "Business Analysis",
+      "people": [
+        {
+          "id": "2",
+          "name": "Nguyễn Tất Chủ",
+          "email": "tatchu.it@gmail.com",
+          "phone": "+84969369499",
+          "division": "4"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Human",
+      "note": "Human office",
+      "people": []
+    }
+  ],
+  "message": []
+}

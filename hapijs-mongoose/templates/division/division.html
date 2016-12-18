@@ -1,0 +1,47 @@
+<div class="content division">
+	<div id="mod-peoples">
+    <div class="col-md-9">
+        <div class="text-center">
+            <h1>Bizzon's division</h1>
+            <hr>
+        </div>
+         <div class="col-md-6">
+            <a class="btn btn-default btn-primary " href="/division/new" role="button">Add new division</a>
+           
+        </div>
+        <form action="/division/search" method="get" class="col-md-6 pull-right">
+             <input type="text" name="keyword" class="form-control" placeholder="Enter keyword and press Enter">
+        </form>
+        <br><hr>
+        <div class="divider"></div>
+        <table class="table table-hover table-bordered table-striped">
+            <thead>
+                <tr>
+                    <!-- <th>ID</th> -->
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Note</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each division}}
+                <tr>
+                    <!-- <td>{{this.id}}</td> -->
+                    <td>{{this.name}}</td>
+                    <td>{{this.people.length}}</td>
+                    <td>{{this.note}}</td>
+                    <td>
+                        <a class="btn btn-xs btn-primary" href="/division/edit/{{this._id}}" role ="button"> Edit </a> |
+                        <a class="btn btn-xs btn-danger confirm-delete" href="/division/delete/{{this._id}}"   role ="button"> Delete </a>
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+ 
+
+    </div>
+
+</div>
+</div>

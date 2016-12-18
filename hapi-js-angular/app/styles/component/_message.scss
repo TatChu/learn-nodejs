@@ -1,0 +1,14 @@
+// ERROR MESSAGE
+.messages-error{
+	@include position(absolute,null,0px,0px);
+	font-size: 12px;
+	>div{
+		padding: 2px 6px;
+		border: 1px solid;
+		border-radius: $border-radius-base;
+		background: red;
+	}
+}
+.messages-error,.messages-error-summary{
+	color:#fff;
+}

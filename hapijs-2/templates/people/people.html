@@ -1,0 +1,51 @@
+<div class="content people">
+	<div id="mod-peoples">
+    <div class="col-md-9">
+        <div class="text-center">
+            <h1>List Bizzon's staff</h1>
+            <hr>
+        </div>
+
+        <div class="col-md-6">
+            <a class="btn btn-default btn-primary " href="/people/new" role="button">Add new people</a>
+           
+        </div>
+        <form action="/people/search/" method="get" class="col-md-6 pull-right">
+             <input type="text" name="keyword" class="form-control" placeholder="Enter keyword and press Enter">
+        </form>
+        <br><hr>
+        
+        <table class="table table-hover table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Division</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each people}}
+                <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.name}}</td>
+                    <td>{{this.email}}</td>
+                    <td>{{this.phone}}</td>
+                    <td>{{this.division.name}}</td>
+                    <td>
+                        <a class="btn btn-xs btn-primary" href="/people/edit/{{this.id}}" role ="button"> Edit </a> |
+                        <a class="btn btn-xs btn-danger confirm-delete" href="/people/delete/{{this.id}}"   role ="button"> Delete </a>
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+ 
+       
+
+    </div>
+
+</div>
+</div>

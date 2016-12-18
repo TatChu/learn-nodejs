@@ -1,0 +1,91 @@
+{
+  "name": "bzSkeleton",
+  "version": "1.2.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "gsap": "^1.18.2",
+    "jquery-mousewheel": "^3.1.13",
+    "jrespond": "*",
+    "magnific-popup": "latest",
+    "malihu-custom-scrollbar-plugin": "^3.1.3",
+    "is_js": "^0.7.6",
+    "cropper": "^2.3.0",
+    "jquery-ui": "1.11.4",
+    "jquery": "^3.1.1",
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "slick": "*",
+    "angular-ui-router": "^0.3.2",
+    "angular-resource": "^1.5.9"
+  },
+  "overrides": {
+    "parallax": {
+      "main": [
+        "deploy/jquery.parallax.min.js"
+      ]
+    },
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/bootstrap/_variables.scss",
+        "assets/stylesheets/bootstrap/_mixins.scss",
+        "assets/stylesheets/bootstrap/_normalize.scss",
+        "assets/stylesheets/bootstrap/_print.scss",
+        "assets/stylesheets/bootstrap/_scaffolding.scss",
+        "assets/stylesheets/bootstrap/_type.scss",
+        "assets/stylesheets/bootstrap/_code.scss",
+        "assets/stylesheets/bootstrap/_grid.scss",
+        "assets/stylesheets/bootstrap/_tables.scss",
+        "assets/stylesheets/bootstrap/_forms.scss",
+        "assets/stylesheets/bootstrap/_buttons.scss",
+        "assets/stylesheets/bootstrap/_responsive-embed.scss",
+        "assets/stylesheets/bootstrap/_utilities.scss",
+        "assets/stylesheets/bootstrap/_responsive-utilities.scss",
+        "assets/stylesheets/bootstrap/_glyphicons"
+      ]
+    },
+    "jquery-ui": {
+      "main": [
+        "ui/minified/core.min.js",
+        "ui/minified/widget.min.js",
+        "ui/minified/mouse.min.js",
+        "ui/minified/position.min.js",
+        "ui/minified/draggable.min.js",
+        "ui/minified/droppable.min.js",
+        "ui/minified/resizable.min.js",
+        "ui/minified/selectable.min.js",
+        "ui/minified/sortable.min.js",
+        "ui/minified/datepicker.min.js",
+        "themes/base/theme.css",
+        "themes/base/jquery-ui.min.css",
+        "themes/base/core.css",
+        "themes/base/accordion.css",
+        "themes/base/button.css",
+        "themes/base/datepicker.css",
+        "themes/base/dialog.css",
+        "themes/base/draggable.css",
+        "themes/base/menu.css",
+        "themes/base/progressbar.css",
+        "themes/base/resizable.css",
+        "themes/base/selectable.css",
+        "themes/base/selectmenu.css",
+        "themes/base/sortable.css",
+        "themes/base/slider.css",
+        "themes/base/spinner.css",
+        "themes/base/tabs.css",
+        "themes/base/tooltip.css"
+      ]
+    },
+    "scrollmagic": {
+      "main": [
+        "scrollmagic/uncompressed/ScrollMagic.js",
+        "scrollmagic/uncompressed/plugins/animation.gsap.js",
+        "scrollmagic/uncompressed/plugins/debug.addIndicators.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}

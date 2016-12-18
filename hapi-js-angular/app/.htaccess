@@ -1,0 +1,16 @@
+RewriteEngine On
+
+#Header always append X-Frame-Options SAMEORIGIN
+Header set Access-Control-Allow-Origin *
+
+#Begin - Redirect non-www to www
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !index
+RewriteCond %{REQUEST_URI} !.*\.(pdf|doc|docx|xls|xlsx|avi|webm|ogg|mp3|mp4|css|less|js|tpl|png|jpg|jpeg|gif|woff|woff2|tff|svg|eot)
+RewriteRule (.*) index.html [L]

@@ -1,0 +1,44 @@
+ <form action="/people/update/{{person._id}}" method="POST" class="form-horizontal" name="form" role="form">
+            <div class="form-group">
+                <legend>Update person</legend>
+            </div>
+
+            <div class="hidden">
+                <input type="text" class="form-control" name="_id" id=""  value="{{person._id}}" required placeholder="Name">
+          <!--       <label class="red" >Vui lòng nhập tên</label> -->
+            </div>
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" name="name" id=""  value="{{person.name}}" required placeholder="Name">
+          <!--       <label class="red" >Vui lòng nhập tên</label> -->
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" required  value="{{person.email}}"  name="email"  id="" placeholder="Email"><!-- 
+                <label class="red" ng-show="(form.email.$error.required || form.email.$error.email) && form.email.$touched">Vui lòng nhập email</label> -->
+
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="text" class="form-control" name="phone" value="{{person.phone}}"   id="" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label>Division</label>
+                <select class="form-control"  name="division" >
+                  {{#each division}}
+                    <option value="{{this._id}}"
+                     {{#compare this.id ../person.division operator="==" }} selected {{/compare}}> {{this.name}}
+                     </option>
+                  {{/each}}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-10 col-sm-offset-2">
+                    <button type="submit"   class="btn btn-primary confirm-update">Update</button>
+                    <a href="/people"  role="button" class="btn btn-default confirm-cancel">Cancel</a>
+                </div>
+            </div>
+</form>

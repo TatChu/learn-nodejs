@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-controller="BaseCtrl as base">
+<head>
+    <title >Learning NodeJS</title>
+    @@include('./common/head-bundle.tpl')
+</head>
+<body ng-app="bzApp">
+    @@include('./common/check-ie.tpl')
+     @@include('./modules/header-menu/view.tpl')
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center">Login to the system</h1>
+                <hr>
+            </div>
+        </div>
+    	<div class="center-block">
+	       @@include('./modules/login/view.tpl')
+    	</div>
+    </div>
+    @@include('./common/script-bundle.tpl')
+    @@include('./common/script-bundle.tpl')
+</body>
+</html>

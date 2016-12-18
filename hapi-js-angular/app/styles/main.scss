@@ -1,0 +1,55 @@
+/****************************************************************************************
+Description: Combine multiple CSS into one
+*****************************************************************************************/
+@import "tools/settings";
+@import "tools/mixins";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss";
+// endbower
+
+// Base
+@import "tools/font";
+@import "base/base";
+@import "base/form";
+@import "tools/helpers";
+@import "tools/responsive";
+
+// Component
+@import "component/accordion";
+@import "component/pagination";
+@import "component/loader";
+@import "component/message";
+@import "component/reskin";
+
+// Modules
+@import "../modules/header-menu/style";
+@import "../modules/login/style";
+@import "../modules/detail-division/style";
+@import "../modules/division/style";
+@import "../modules/contact/style";
+@import "../modules/peoples/style";
+@import "../modules/home/style";
+@import "../modules/popup/message/style";
+@import "../modules/popup/cropper/style";
+@import "../modules/menu/style";
+
+// Layout
+@import "layout/pagetransition";
+@import "layout/layout";
+
+// Print
+@import "print/all";

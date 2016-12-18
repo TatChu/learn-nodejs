@@ -1,0 +1,16 @@
+#mod-header-menu{
+	.dropdown-menu select{
+		border: 0;
+	}
+	.menu ul{
+		list-style: none;
+		display: inline;
+		li{
+			display: block;
+		}
+		li:hover{
+			cursor: pointer;
+		}
+	}
+}
+

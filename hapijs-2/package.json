@@ -1,0 +1,25 @@
+{
+  "name": "hapijs-learn",
+  "version": "1.0.0",
+  "description": "Learing hapijs in Bizzon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "The Boss",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.2.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.0.1",
+    "inert": "^4.0.3",
+    "joi": "^10.0.5",
+    "lowdb": "^0.14.0",
+    "mongoose": "^4.7.1",
+    "path": "^0.12.7",
+    "vision": "^4.1.1"
+  }
+}

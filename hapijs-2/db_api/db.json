@@ -1,0 +1,263 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "name": "Nguyễn Tất Chủ",
+      "email": "tatchu.it@gmail.com",
+      "phone": "+84969369499",
+      "division": {
+        "id": "5",
+        "name": "Human",
+        "note": "Human officer",
+        "people": [
+          {
+            "id": "2",
+            "name": "The Boss",
+            "email": "boss.it@gmail.com",
+            "phone": "0969369499",
+            "division": {
+              "id": "5",
+              "name": "Human",
+              "note": "Human office",
+              "people": [
+                {
+                  "id": "1",
+                  "name": "Nguyễn Tất Chủ",
+                  "email": "tatchu.it@gmail.com",
+                  "phone": "+84969369499",
+                  "division": {
+                    "id": "5",
+                    "name": "Human",
+                    "note": "Human officer",
+                    "people": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "The Boss",
+      "email": "boss.it@gmail.com",
+      "phone": "0969369499",
+      "division": {
+        "id": "5",
+        "name": "Human",
+        "note": "Human office",
+        "people": [
+          {
+            "id": "1",
+            "name": "Nguyễn Tất Chủ",
+            "email": "tatchu.it@gmail.com",
+            "phone": "+84969369499",
+            "division": {
+              "id": "5",
+              "name": "Human",
+              "note": "Human officer",
+              "people": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Big Boss",
+      "email": "tatchu.it@gmail.com",
+      "phone": "0969369499",
+      "division": {
+        "id": "1",
+        "name": "Development",
+        "note": "Development division",
+        "people": [
+          {
+            "id": "1",
+            "name": "Nguyễn Tất Chủ",
+            "email": "tatchu.it@gmail.com",
+            "phone": "+84969369499",
+            "division": "5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "Pham Ngọc Linh",
+      "email": "1234@2345sdfg.cm",
+      "phone": "09982736",
+      "division": {
+        "id": "2",
+        "name": "Design",
+        "note": "Design division",
+        "people": []
+      }
+    },
+    {
+      "id": "17",
+      "name": "Hoang Huy",
+      "email": "hhh@gmail.com",
+      "phone": "987654",
+      "division": {
+        "id": "4",
+        "name": "BA",
+        "note": "Business Analysis Division",
+        "people": []
+      }
+    }
+  ],
+  "division": [
+    {
+      "id": "1",
+      "name": "Development",
+      "note": "Development division",
+      "people": [
+        {
+          "id": "3",
+          "name": "Big Boss",
+          "email": "tatchu.it@gmail.com",
+          "phone": "0969369499",
+          "division": {
+            "id": "1",
+            "name": "Development",
+            "note": "Development division",
+            "people": [
+              {
+                "id": "1",
+                "name": "Nguyễn Tất Chủ",
+                "email": "tatchu.it@gmail.com",
+                "phone": "+84969369499",
+                "division": "5"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Design",
+      "note": "Design division",
+      "people": [
+        {
+          "id": "14",
+          "name": "Pham Ngọc Linh",
+          "email": "1234@2345sdfg.cm",
+          "phone": "09982736",
+          "division": {
+            "id": "2",
+            "name": "Design",
+            "note": "Design division",
+            "people": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "President",
+      "note": "Management division",
+      "people": []
+    },
+    {
+      "id": "4",
+      "name": "BA",
+      "note": "Business Analysis Division",
+      "people": [
+        {
+          "id": "17",
+          "name": "Hoang Huy",
+          "email": "hhh@gmail.com",
+          "phone": "987654",
+          "division": {
+            "id": "4",
+            "name": "BA",
+            "note": "Business Analysis Division",
+            "people": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Human",
+      "note": "Human officer",
+      "people": [
+        {
+          "id": "1",
+          "name": "Nguyễn Tất Chủ",
+          "email": "tatchu.it@gmail.com",
+          "phone": "+84969369499",
+          "division": {
+            "id": "5",
+            "name": "Human",
+            "note": "Human officer",
+            "people": [
+              {
+                "id": "2",
+                "name": "The Boss",
+                "email": "boss.it@gmail.com",
+                "phone": "0969369499",
+                "division": {
+                  "id": "5",
+                  "name": "Human",
+                  "note": "Human office",
+                  "people": [
+                    {
+                      "id": "1",
+                      "name": "Nguyễn Tất Chủ",
+                      "email": "tatchu.it@gmail.com",
+                      "phone": "+84969369499",
+                      "division": {
+                        "id": "5",
+                        "name": "Human",
+                        "note": "Human officer",
+                        "people": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "name": "The Boss",
+          "email": "boss.it@gmail.com",
+          "phone": "0969369499",
+          "division": {
+            "id": "5",
+            "name": "Human",
+            "note": "Human office",
+            "people": [
+              {
+                "id": "1",
+                "name": "Nguyễn Tất Chủ",
+                "email": "tatchu.it@gmail.com",
+                "phone": "+84969369499",
+                "division": {
+                  "id": "5",
+                  "name": "Human",
+                  "note": "Human officer",
+                  "people": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "message": [],
+  "config": [
+    {
+      "id": "config",
+      "people_current_id": 19,
+      "division_current_id": 13,
+      "message_current_id": 0
+    }
+  ]
+}
